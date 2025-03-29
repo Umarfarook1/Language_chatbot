@@ -71,3 +71,4 @@ conda-bld/
 *.conda
 .conda/
 lang-chatbot/  # Ignore the Conda environment created in the project folder
+.lang-chatbot/  # Ignore the Conda environment created in the project folder
