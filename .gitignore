@@ -1,0 +1,75 @@
+# Using PowerShell to write content to the file
+Set-Content -Path .gitignore -Value @'
+# Environment and config
+.env
+venv/
+venv1/
+env/
+.venv/
+ENV/
+*.env
+config.json
+.python-version
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# API keys and secrets
+**/api_key*
+**/*secret*
+**/*key*
+
+# Logs
+logs/
+*.log
+
+# Conda environment files
+/conda-env/
+/anaconda/
+/miniconda/
+/.conda/
+/envs/
+environment.yml
+environment.yaml
+conda-meta/
+condarc
+.condarc
+conda-bld/
+*.conda
+.conda/
+'@
